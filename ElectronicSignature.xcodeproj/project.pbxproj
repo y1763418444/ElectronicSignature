@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165496191E8F57C20024B72E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165496181E8F57C20024B72E /* main.m */; };
+		1654961C1E8F57C20024B72E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654961B1E8F57C20024B72E /* AppDelegate.m */; };
+		1654961F1E8F57C20024B72E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654961E1E8F57C20024B72E /* ViewController.m */; };
+		165496221E8F57C20024B72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165496201E8F57C20024B72E /* Main.storyboard */; };
+		165496241E8F57C20024B72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165496231E8F57C20024B72E /* Assets.xcassets */; };
+		165496271E8F57C20024B72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165496251E8F57C20024B72E /* LaunchScreen.storyboard */; };
+		165496321E8F57C20024B72E /* ElectronicSignatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165496311E8F57C20024B72E /* ElectronicSignatureTests.m */; };
+		1654963D1E8F57C20024B72E /* ElectronicSignatureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654963C1E8F57C20024B72E /* ElectronicSignatureUITests.m */; };
+		1654964C1E8F59190024B72E /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654964B1E8F59190024B72E /* SignViewController.m */; };
+		1654964F1E8F59E90024B72E /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654964E1E8F59E90024B72E /* UIView+Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1654962E1E8F57C20024B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1654960C1E8F57C20024B72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165496131E8F57C20024B72E;
+			remoteInfo = ElectronicSignature;
+		};
+		165496391E8F57C20024B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1654960C1E8F57C20024B72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165496131E8F57C20024B72E;
+			remoteInfo = ElectronicSignature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		165496141E8F57C20024B72E /* ElectronicSignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectronicSignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		165496181E8F57C20024B72E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1654961A1E8F57C20024B72E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1654961B1E8F57C20024B72E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1654961D1E8F57C20024B72E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1654961E1E8F57C20024B72E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		165496211E8F57C20024B72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		165496231E8F57C20024B72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		165496261E8F57C20024B72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		165496281E8F57C20024B72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1654962D1E8F57C20024B72E /* ElectronicSignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectronicSignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165496311E8F57C20024B72E /* ElectronicSignatureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectronicSignatureTests.m; sourceTree = "<group>"; };
+		165496331E8F57C20024B72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165496381E8F57C20024B72E /* ElectronicSignatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectronicSignatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1654963C1E8F57C20024B72E /* ElectronicSignatureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectronicSignatureUITests.m; sourceTree = "<group>"; };
+		1654963E1E8F57C20024B72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1654964A1E8F59180024B72E /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		1654964B1E8F59190024B72E /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		1654964D1E8F59E90024B72E /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		1654964E1E8F59E90024B72E /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		165496111E8F57C20024B72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1654962A1E8F57C20024B72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165496351E8F57C20024B72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1654960B1E8F57C20024B72E = {
+			isa = PBXGroup;
+			children = (
+				165496161E8F57C20024B72E /* ElectronicSignature */,
+				165496301E8F57C20024B72E /* ElectronicSignatureTests */,
+				1654963B1E8F57C20024B72E /* ElectronicSignatureUITests */,
+				165496151E8F57C20024B72E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		165496151E8F57C20024B72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				165496141E8F57C20024B72E /* ElectronicSignature.app */,
+				1654962D1E8F57C20024B72E /* ElectronicSignatureTests.xctest */,
+				165496381E8F57C20024B72E /* ElectronicSignatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		165496161E8F57C20024B72E /* ElectronicSignature */ = {
+			isa = PBXGroup;
+			children = (
+				1654961A1E8F57C20024B72E /* AppDelegate.h */,
+				1654961B1E8F57C20024B72E /* AppDelegate.m */,
+				1654961D1E8F57C20024B72E /* ViewController.h */,
+				1654961E1E8F57C20024B72E /* ViewController.m */,
+				1654964A1E8F59180024B72E /* SignViewController.h */,
+				1654964B1E8F59190024B72E /* SignViewController.m */,
+				1654964D1E8F59E90024B72E /* UIView+Helper.h */,
+				1654964E1E8F59E90024B72E /* UIView+Helper.m */,
+				165496201E8F57C20024B72E /* Main.storyboard */,
+				165496231E8F57C20024B72E /* Assets.xcassets */,
+				165496251E8F57C20024B72E /* LaunchScreen.storyboard */,
+				165496281E8F57C20024B72E /* Info.plist */,
+				165496171E8F57C20024B72E /* Supporting Files */,
+			);
+			path = ElectronicSignature;
+			sourceTree = "<group>";
+		};
+		165496171E8F57C20024B72E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				165496181E8F57C20024B72E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		165496301E8F57C20024B72E /* ElectronicSignatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				165496311E8F57C20024B72E /* ElectronicSignatureTests.m */,
+				165496331E8F57C20024B72E /* Info.plist */,
+			);
+			path = ElectronicSignatureTests;
+			sourceTree = "<group>";
+		};
+		1654963B1E8F57C20024B72E /* ElectronicSignatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1654963C1E8F57C20024B72E /* ElectronicSignatureUITests.m */,
+				1654963E1E8F57C20024B72E /* Info.plist */,
+			);
+			path = ElectronicSignatureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		165496131E8F57C20024B72E /* ElectronicSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165496411E8F57C20024B72E /* Build configuration list for PBXNativeTarget "ElectronicSignature" */;
+			buildPhases = (
+				165496101E8F57C20024B72E /* Sources */,
+				165496111E8F57C20024B72E /* Frameworks */,
+				165496121E8F57C20024B72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectronicSignature;
+			productName = ElectronicSignature;
+			productReference = 165496141E8F57C20024B72E /* ElectronicSignature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1654962C1E8F57C20024B72E /* ElectronicSignatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165496441E8F57C20024B72E /* Build configuration list for PBXNativeTarget "ElectronicSignatureTests" */;
+			buildPhases = (
+				165496291E8F57C20024B72E /* Sources */,
+				1654962A1E8F57C20024B72E /* Frameworks */,
+				1654962B1E8F57C20024B72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1654962F1E8F57C20024B72E /* PBXTargetDependency */,
+			);
+			name = ElectronicSignatureTests;
+			productName = ElectronicSignatureTests;
+			productReference = 1654962D1E8F57C20024B72E /* ElectronicSignatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		165496371E8F57C20024B72E /* ElectronicSignatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165496471E8F57C20024B72E /* Build configuration list for PBXNativeTarget "ElectronicSignatureUITests" */;
+			buildPhases = (
+				165496341E8F57C20024B72E /* Sources */,
+				165496351E8F57C20024B72E /* Frameworks */,
+				165496361E8F57C20024B72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1654963A1E8F57C20024B72E /* PBXTargetDependency */,
+			);
+			name = ElectronicSignatureUITests;
+			productName = ElectronicSignatureUITests;
+			productReference = 165496381E8F57C20024B72E /* ElectronicSignatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1654960C1E8F57C20024B72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "李志华";
+				TargetAttributes = {
+					165496131E8F57C20024B72E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3JQ554Z7EQ;
+						ProvisioningStyle = Automatic;
+					};
+					1654962C1E8F57C20024B72E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3JQ554Z7EQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 165496131E8F57C20024B72E;
+					};
+					165496371E8F57C20024B72E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3JQ554Z7EQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 165496131E8F57C20024B72E;
+					};
+				};
+			};
+			buildConfigurationList = 1654960F1E8F57C20024B72E /* Build configuration list for PBXProject "ElectronicSignature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1654960B1E8F57C20024B72E;
+			productRefGroup = 165496151E8F57C20024B72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				165496131E8F57C20024B72E /* ElectronicSignature */,
+				1654962C1E8F57C20024B72E /* ElectronicSignatureTests */,
+				165496371E8F57C20024B72E /* ElectronicSignatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		165496121E8F57C20024B72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165496271E8F57C20024B72E /* LaunchScreen.storyboard in Resources */,
+				165496241E8F57C20024B72E /* Assets.xcassets in Resources */,
+				165496221E8F57C20024B72E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1654962B1E8F57C20024B72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165496361E8F57C20024B72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		165496101E8F57C20024B72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1654961F1E8F57C20024B72E /* ViewController.m in Sources */,
+				1654961C1E8F57C20024B72E /* AppDelegate.m in Sources */,
+				165496191E8F57C20024B72E /* main.m in Sources */,
+				1654964C1E8F59190024B72E /* SignViewController.m in Sources */,
+				1654964F1E8F59E90024B72E /* UIView+Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165496291E8F57C20024B72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165496321E8F57C20024B72E /* ElectronicSignatureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165496341E8F57C20024B72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1654963D1E8F57C20024B72E /* ElectronicSignatureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1654962F1E8F57C20024B72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165496131E8F57C20024B72E /* ElectronicSignature */;
+			targetProxy = 1654962E1E8F57C20024B72E /* PBXContainerItemProxy */;
+		};
+		1654963A1E8F57C20024B72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165496131E8F57C20024B72E /* ElectronicSignature */;
+			targetProxy = 165496391E8F57C20024B72E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		165496201E8F57C20024B72E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165496211E8F57C20024B72E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		165496251E8F57C20024B72E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165496261E8F57C20024B72E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1654963F1E8F57C20024B72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		165496401E8F57C20024B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		165496421E8F57C20024B72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JQ554Z7EQ;
+				INFOPLIST_FILE = ElectronicSignature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElectronicSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		165496431E8F57C20024B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JQ554Z7EQ;
+				INFOPLIST_FILE = ElectronicSignature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElectronicSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		165496451E8F57C20024B72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3JQ554Z7EQ;
+				INFOPLIST_FILE = ElectronicSignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElectronicSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectronicSignature.app/ElectronicSignature";
+			};
+			name = Debug;
+		};
+		165496461E8F57C20024B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3JQ554Z7EQ;
+				INFOPLIST_FILE = ElectronicSignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElectronicSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectronicSignature.app/ElectronicSignature";
+			};
+			name = Release;
+		};
+		165496481E8F57C20024B72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3JQ554Z7EQ;
+				INFOPLIST_FILE = ElectronicSignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElectronicSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectronicSignature;
+			};
+			name = Debug;
+		};
+		165496491E8F57C20024B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3JQ554Z7EQ;
+				INFOPLIST_FILE = ElectronicSignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElectronicSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectronicSignature;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1654960F1E8F57C20024B72E /* Build configuration list for PBXProject "ElectronicSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1654963F1E8F57C20024B72E /* Debug */,
+				165496401E8F57C20024B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165496411E8F57C20024B72E /* Build configuration list for PBXNativeTarget "ElectronicSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165496421E8F57C20024B72E /* Debug */,
+				165496431E8F57C20024B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		165496441E8F57C20024B72E /* Build configuration list for PBXNativeTarget "ElectronicSignatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165496451E8F57C20024B72E /* Debug */,
+				165496461E8F57C20024B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		165496471E8F57C20024B72E /* Build configuration list for PBXNativeTarget "ElectronicSignatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165496481E8F57C20024B72E /* Debug */,
+				165496491E8F57C20024B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1654960C1E8F57C20024B72E /* Project object */;
+}
